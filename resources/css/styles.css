@@ -6,19 +6,39 @@ body {
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     height: 2rem;
     padding: 1rem;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo img {
+    height: 3rem;
+    padding-right: .5rem;
 }
 
 .logo {
     display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.navlinks {
+    margin: 0 auto;
 }
 
 .navlinks ul {
     display: flex;
+    padding: 0;
 }
 
 .navlinks li {
     margin: 0 1rem;
+    list-style-type: none;
 }
