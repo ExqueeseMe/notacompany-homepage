@@ -132,17 +132,15 @@ button {
 .values {
     display: flex;
     padding: 2rem;
+    justify-content: center;
     align-items: center;
     background-color: #45477A;
     color: white;
+    gap: 4rem;
 }
 
-.values-list {
-    width: 75rem;
-}
-
-.values-list img {
-    width: 15%;
+.values-text {
+    max-width: 30rem;
 }
 
 .values-list li {
@@ -153,6 +151,8 @@ button {
 
 .values-list li img {
     margin-right: 1rem;
+    width: 3rem;
+    height: 3rem;
 }
 
 .products {
@@ -307,6 +307,30 @@ footer {
                 margin-left: 0;
                 margin-bottom: 1rem;
                 font-size: 1.25rem;
+        }
+
+        .values-text {
+            max-width: 90%;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .values {
+            display: block;
+        }
+
+        .values-list ul {
+            padding: 0rem;
+            margin-top: 2rem;
+        }
+
+        .values-list li {
+            justify-content: center;
+        }
+
+        .values-list li img {
+            width: 2.5rem;
+            height: 2.5rem;
         }
 
         .product-cards {
