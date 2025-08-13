@@ -10,12 +10,17 @@ header {
     align-items: center;
     height: 2rem;
     padding: 1rem;
-    font-weight: bold;
+    background-color: white;
+    border-bottom: 1px solid black;
 }
 
 a {
-    text-decoration: none;
-    color: black;
+    color: #45477A;
+    font-weight: normal;
+}
+
+a:hover {
+    color: #B8B9CF;
 }
 
 .logo img {
@@ -27,6 +32,8 @@ a {
     display: flex;
     align-items: center;
     font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .navlinks {
@@ -41,4 +48,75 @@ a {
 .navlinks li {
     margin: 0 1rem;
     list-style-type: none;
+}
+
+button {
+    width: 5rem;
+    height: 2.25rem;
+    border: 1px solid #45477A;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.transparent-button {
+    background-color: white;
+    color: #45477A;
+    margin-right: .5rem;
+}
+
+.transparent-button:hover {
+    color: #B8B9CF;
+    border-color: #B8B9CF;
+}
+
+.solid-button {
+    background-color: #45477A;
+    color: white;
+}
+
+.solid-button:hover {
+    background-color: #B8B9CF;
+    border-color: #B8B9CF;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.hero-content {
+    margin-right: 2rem;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.values {
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+    background-color: #45477A;
+    color: white;
+}
+
+.values-list {
+    width: 75rem;
+}
+
+.values-list img {
+    width: 15%;
+}
+
+.values-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.values-list li img {
+    margin-right: 1rem;
 }
