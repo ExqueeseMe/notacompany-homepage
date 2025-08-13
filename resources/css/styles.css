@@ -83,16 +83,20 @@ button {
     justify-content: space-between;
     align-items: center;
     padding: 2rem;
+    height: 25rem;
 }
 
 .hero-content {
     margin-right: 2rem;
+
 }
 
 .hero img {
-    max-width: 100%;
+    width: 100%;
+    max-width: 25rem;
     height: auto;
     border-radius: 4px;
+
 }
 
 .values {
