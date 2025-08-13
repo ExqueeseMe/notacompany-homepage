@@ -194,17 +194,17 @@ button {
 }
 
 #glass-panels {
-    background-image: url('./resources/images/windows.png');
+    background-image: url('../images/windows.png');
     background-size: cover;
 }
 
 #glass-rails {
-    background-image: url('./resources/images/glassrails.jpg');
+    background-image: url('../images/glassrails.jpg');
     background-size: cover;
 }
 
 #glass-partitions {
-    background-image: url('./resources/images/glass-tabletop-partitions.jpg');
+    background-image: url('../images/glass-tabletop-partitions.jpg');
     background-size: cover;
 }
 
@@ -257,7 +257,7 @@ footer {
 
 @media screen and (max-width: 905px) {
         .hero {
-            background-image: url('./resources/images/untitled.jpeg');
+            background-image: url('../images/untitled.jpeg');
             background-size: cover;
             height: 40rem;
     }
